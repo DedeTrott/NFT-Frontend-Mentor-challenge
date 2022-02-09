@@ -1,4 +1,77 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root{
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-bg-color: hsl(217, 54%, 70%);
+    --card-bg-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+}
+
+body{
+    font-size: 18px;
+    background-color:#0d1a2d;
+}
+
+.container{
+    width: 375px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15273f;
+    border-radius: 1em;
+}
+
+#hero-img{
+    margin: 20px 30px;
+    border-radius: 0.75em;
+    width: 80%;
+}
+
+.headline{
+    color: white;
+}
+
+.description{
+    color: var(--soft-blue);
+}
+
+.next-to-eachother{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.price{
+    color: var(--cyan);
+    display: flex;
+}
+
+.duration{
+    color: var(--soft-blue);
+    display: flex;
+}
+
+
+.creator{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1em;
+}
+
+.creator img{
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.creator p{
+    color: white;
+    margin-left: 10px;
 }
